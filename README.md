@@ -30,8 +30,7 @@ I design and build high-performance software simulators, custom hardware acceler
 | Project | Tech Stack | Architectural Highlights |
 | :--- | :--- | :--- |
 | **[FPGA 3D CNN Hardware Accelerator](https://github.com/usman-irshad1/CNN-accelerator)** | `SystemVerilog` · `Xilinx Vivado` · `FPGA` | Parameterized 3D Convolutional Neural Network hardware engine featuring 3 parallel 27-bit DSP Multiply-Accumulate (MAC) cores, a 3D Address Generation Unit (AGU), dual-port Block RAM tensor streaming, and hardware ReLU activation. |
-| **[RV32 Multi-Cycle RISC-V Processor](https://github.com/usman-irshad1/risc-v-multicycle-processor)** | `SystemVerilog` · `RISC-V RV32I/M` | 32-bit FSM-controlled multi-cycle RISC-V processor core featuring unified instruction/data memory, custom hardware multiplier/divider datapath, and modular verification testbenches. |
-| **[RV32 Single-Cycle RISC-V Processor](https://github.com/usman-irshad1/risc-v-singlecycle-processor)** | `SystemVerilog` · `Verilog` · `RISC-V` | Complete 32-bit single-cycle RISC-V architecture implementing immediate generation, branch comparator logic, ALU execution, and full control unit decoding. |
+| **[RISC-V Processor Architecture & Digital Design Progression (RV32I / RV32IM)](https://github.com/usman-irshad1/risc-v-multicycle-processor)** | `SystemVerilog` · `Verilog` · `RISC-V RV32I/M` | Complete 5-stage hardware progression from foundational digital logic gates, multiplexers, and counters to 32-bit ALU/Register File/Control subsystems, a **Single-Cycle RV32I Core**, and a **Flagship FSM-Controlled Multi-Cycle RV32IM Processor** with unified memory and hardware multiply/divide/remainder execution. |
 
 ---
 
